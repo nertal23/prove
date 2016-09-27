@@ -1,0 +1,7 @@
+<config>
+    <group id="default">
+        <job name="shopify_export_cron" instance="Prove\Example\Cron\Message" method="execute">
+            <schedule>* * * * *</schedule>
+        </job>
+    </group>
+</config>
