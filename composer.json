@@ -1,22 +1,17 @@
 {
-  "name": "w3d/exportorders",
-  "description": "A Magento 2 module that exports orders in different formats",
-  "type": "magento2-module",
-  "version": "0.0.1",
- 
-  "require": {
-    "w3d/exportorders": "0.0.1"
-  },
-  
-  "extra": {
-    "map": [
-         [
-           "*",
-           "W3development/Exportorders"
-         ]
-    ]
-   },
-  "autoload": {
-    "files": [ "registration.php" ]
-  }
+    "name": "prove/example",
+    "description": "My awesome example extension",
+    "require": {
+        "magento/magento-composer-installer": "*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Prove/Example"
+            ]
+        ]
+    }
 }
