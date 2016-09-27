@@ -1,9 +1,6 @@
 {
     "name": "prove/example",
     "description": "My awesome example extension",
-    "require": {
-        "magento/magento-composer-installer": "*"
-    },
     "type": "magento2-module",
     "version": "2.0.0",
     "extra": {
